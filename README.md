@@ -1,4 +1,4 @@
-# php-mvc-example
+# Examples [MVC Framework](https://github.com/stuhi/php-mvc)
 
 Warning: based on PHP 8.1
 
