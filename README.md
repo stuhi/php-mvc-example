@@ -9,8 +9,8 @@ a2enmod rewrite
 ```
 <VirtualHost *:80>
     ...
-    DocumentRoot /.../simple/public
-    <Directory /.../simple>
+    DocumentRoot /.../(simple or singleton or ...)/public
+    <Directory /.../(simple or singleton or ...)>
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
@@ -19,8 +19,11 @@ a2enmod rewrite
 ```
 **composer**:
 ```
-cd /.../simple
+cd /.../(simple or singleton or ...)
 composer update
 ```
 >**Simple** has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller**, **Model** and **View** works with **GET** requests.
+
+>**Singleton** has 2 pages **/home/index** and **/home/about**.
+Shows how the **Controller as singleton**, **Model** and **View** works with **GET** requests.
