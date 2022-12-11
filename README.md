@@ -2,7 +2,7 @@
 
 Warning: based on PHP 8.1
 
-apache2 settings:
+**apache2**:
 ```
 a2enmod rewrite
 ```
@@ -16,6 +16,11 @@ a2enmod rewrite
         Require all granted
     </Directory>
 </VirtualHost>
+```
+**composer**:
+```
+cd /.../simple
+composer update
 ```
 >**Simple** has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller**, **Model** and **View** works with **GET** requests.
