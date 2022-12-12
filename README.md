@@ -30,3 +30,6 @@ Shows how the **Controller as singleton**, **Model** and **View** works with **G
 
 >**3 PostRequest**: Has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller as singleton**, **Model** and **View** works with **GET** and **POST** requests.
+
+>**4 Layout**: Has 2 pages **/home/index** and **/home/about**.
+Shows how the **Controller as singleton**, **Model** and **View** works with **GET** and **POST** requests, and **Layout** template.
