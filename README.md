@@ -22,11 +22,11 @@ a2enmod rewrite
 cd /.../(simple or singleton or ...)
 composer update
 ```
->**01 Simple** has 2 pages **/home/index** and **/home/about**.
+>**1 Simple**: Has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller**, **Model** and **View** works with **GET** requests.
 
->**02 Singleton** has 2 pages **/home/index** and **/home/about**.
+>**2 Singleton**: Has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller as singleton**, **Model** and **View** works with **GET** requests.
 
->**03 PostRequest** has 2 pages **/home/index** and **/home/about**.
+>**3 PostRequest**: Has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller as singleton**, **Model** and **View** works with **GET** and **POST** requests.
