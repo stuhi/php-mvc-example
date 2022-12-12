@@ -21,6 +21,7 @@ a2enmod rewrite
 ```
 cd /.../(01_Simple or 02_Singleton or ...)
 composer update
+composer dump-autoload --optimize
 ```
 >**1 Simple**: Has 2 pages **/home/index** and **/home/about**.
 Shows how the **Controller**, **Model** and **View** works with **GET** requests.
