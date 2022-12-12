@@ -1,0 +1,19 @@
+{
+  "name": "stuhi/simple",
+  "description": "Simple",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+      {
+          "name": "stuhi"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "stuhi/mvc": "*"
+  }
+}
