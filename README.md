@@ -30,7 +30,11 @@ Shows how the **Controller**, **Model** and **View** works with **GET** requests
 Shows how the **Controller as singleton**, **Model** and **View** works with **GET** requests.
 
 >**3 PostRequest**: Has 2 pages **/home/index** and **/home/about**.
-Shows how the **Controller as singleton**, **Model** and **View** works with **GET** and **POST** requests.
+Shows how the **Controller** *as singleton*, **Model** and **View** works with **GET** and **POST** requests.
 
 >**4 Layout**: Has 2 pages **/home/index** and **/home/about**.
-Shows how the **Controller as singleton**, **Model** and **View** works with **GET** and **POST** requests, and **Layout** template.
+Shows how the **Controller** *as singleton*, **Model** and **View** works with **GET** and **POST** requests, and **Layout** template.
+
+>**5 Login**: Has 3 pages **/home/index**, **/home/about** and **/account/login**.
+Shows how the **Controller** *as singleton*, **Model** and **View** works with **GET** and **POST** requests, and **Layout** template.
+Works session and attributes.
